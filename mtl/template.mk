@@ -51,7 +51,7 @@ $(EXEC):		LFLAGS += -g
 $(EXEC)_profile:	LFLAGS += -g -pg
 $(EXEC)_debug:		LFLAGS += -g
 #$(EXEC)_release:	LFLAGS += ...
-$(EXEC)_static:		LFLAGS += --static
+
 
 ## Dependencies
 $(EXEC):		$(COBJS)
